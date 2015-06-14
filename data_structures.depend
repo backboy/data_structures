@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1429971067 source:d:\acm\data_structures\src\m_queue.cpp
+	"m_queue.h"
+	"stdio.h"
+	"conio.h"
+
+1429968982 d:\acm\data_structures\include\m_queue.h
+
+1434211951 source:d:\acm\data_structures\main.cpp
+	<m_queue.h>
+	<m_priority_queue.h>
+	<m_stack.h>
+	<m_heap.h>
+	<stl_set.h>
+	<stl_q_sort.h>
+	<stl_sort.h>
+	<stl_stack.h>
+	<stl_queue.h>
+	<stl_map.h>
+	<trie.h>
+
+1429971228 d:\acm\data_structures\include\m_priority_queue.h
+
+1429971349 source:d:\acm\data_structures\src\m_priority_queue.cpp
+	"m_priority_queue.h"
+	"stdio.h"
+	"conio.h"
+
+1430060095 source:d:\acm\data_structures\src\m_stack.cpp
+	"m_stack.h"
+	"stdio.h"
+	"conio.h"
+	"stack"
+	<vector>
+
+1430059121 d:\acm\data_structures\include\m_stack.h
+
+1431278621 d:\acm\data_structures\include\m_heap.h
+
+1431283555 source:d:\acm\data_structures\src\m_heap.cpp
+	"m_heap.h"
+	"stdio.h"
+	"conio.h"
+
+1431793847 d:\acm\data_structures\include\stl_set.h
+
+1433007682 source:d:\acm\data_structures\src\stl_set.cpp
+	"stl_set.h"
+	<iostream>
+	<set>
+	<conio.h>
+
+1434204451 source:d:\acm\data_structures\src\stl_map.cpp
+	"stl_map.h"
+	<stdio.h>
+	<conio.h>
+	<iostream>
+	<iomanip>
+	<map>
+
+1434202501 d:\acm\data_structures\include\stl_map.h
+
+1434199205 source:d:\acm\data_structures\src\stl_q_sort.cpp
+	"stl_q_sort.h"
+	<stdio.h>
+	<algorithm>
+	<conio.h>
+
+1434198741 d:\acm\data_structures\include\stl_q_sort.h
+
+1434199726 source:d:\acm\data_structures\src\stl_sort.cpp
+	"stl_sort.h"
+	<stdio.h>
+	<conio.h>
+	<algorithm>
+
+1434199637 d:\acm\data_structures\include\stl_sort.h
+
+1434200657 d:\acm\data_structures\include\stl_stack.h
+
+1434201595 d:\acm\data_structures\include\stl_queue.h
+
+1434201667 source:d:\acm\data_structures\src\stl_stack.cpp
+	"stl_stack.h"
+	<stdio.h>
+	<conio.h>
+	<algorithm>
+	<stack>
+
+1434201956 source:d:\acm\data_structures\src\stl_queue.cpp
+	"stl_queue.h"
+	<stdio.h>
+	<conio.h>
+	<algorithm>
+	<queue>
+
+1434210184 d:\acm\data_structures\include\trie.h
+
+1434208604 source:d:\acm\data_structures\src\suffix_array.cpp
+	"suffix_array.h"
+
+1434208604 d:\acm\data_structures\include\suffix_array.h
+
