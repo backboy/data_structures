@@ -25,7 +25,7 @@ trie_node_s* create_new_node(){
     p_node=(trie_node_s*)malloc(sizeof(trie_node_s));
     if( p_node ){
         p_node->val=0;
-        p_node->is_visited=false;
+        //p_node->is_visited=false;
         int i;
         FFOR(i,0,ALPH_SIZE)p_node->child[i]=NULL;
     }
@@ -49,7 +49,7 @@ void insert_key(trie_s &trie, char key[]){
     //printf("%d\n",p_crawl->val);
 
 }
-void dfs_visit_trie(trie_node_s *p_crawl){
+/*void dfs_visit_trie(trie_node_s *p_crawl){
 
     printf("%c",p_crawl->c);
     p_crawl->is_visited=true;
@@ -74,7 +74,7 @@ void dfs_trie(trie_s &trie){
         }
     }
 
-}
+}*/
 bool search_trie(trie_s &trie,char key[]){
 
     int len;

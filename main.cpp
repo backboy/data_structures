@@ -9,6 +9,7 @@
 #include <stl_queue.h>
 #include <stl_map.h>
 #include <trie.h>
+#include <suffix_array.h>
 using namespace std;
 int main()
 {
@@ -23,5 +24,6 @@ int main()
     //stl_queue_main();
     //stl_map_main();
     trie_main();
+    //suffix_array_main();
     return 0;
 }
