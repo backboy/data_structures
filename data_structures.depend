@@ -6,7 +6,7 @@
 
 1429968982 d:\acm\data_structures\include\m_queue.h
 
-1436071998 source:d:\acm\data_structures\main.cpp
+1436626947 source:d:\acm\data_structures\main.cpp
 	<m_queue.h>
 	<m_priority_queue.h>
 	<m_stack.h>
@@ -109,7 +109,7 @@
 
 1434269416 d:\acm\data_structures\include\suffix_array.h
 
-1434217978 source:d:\acm\data_structures\src\trie.cpp
+1436074074 source:d:\acm\data_structures\src\trie.cpp
 	"trie.h"
 	<stdlib.h>
 	<stdio.h>

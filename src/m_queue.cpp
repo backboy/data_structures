@@ -6,20 +6,21 @@
 
 static int N;
 static int queue_array[Q_MAX];
-static int m_head;
-static int m_tail;
+static int head;
+static int tail;
 void en_queue(int x){
 
-    //if(m_head==(m_tail+1)){printf("Q full");return;}
-    queue_array[m_tail++]=x;
-    m_tail=(m_tail==N)?0:m_tail;
+    if(tail>=Q_MAX){printf("Q full\n");return;}
+    queue_array[tail]=x;
+    tail++;
+
 
 }
 int d_queue(){
 
-    //if(m_head==m_tail){printf("Q empty");return 0;}
-    int x=queue_array[m_head++];
-    m_head=(m_head==N)?0:m_head;
+    if(head==tail){printf("Q empty\n");return -1;}
+    int x=queue_array[head];
+    head++;
     return x;
 
 }
@@ -27,10 +28,11 @@ int d_queue(){
 int m_queue_main()
 {
 
-    m_head=0;m_tail=0;N=Q_MAX;
+    head=0;tail=0;N=Q_MAX;
     d_queue();
-    int i;FFOR(i,0,10)en_queue(i+1);
-    FFOR(i,0,N)printf("%d ",d_queue());
+    int i;FFOR(i,0,N+1)en_queue(i+1);
+    int x;
+    while((x=d_queue())!=-1)printf("%d\n",x);
     getch();
     return 0;
 }

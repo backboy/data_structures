@@ -13,7 +13,7 @@
 using namespace std;
 int main()
 {
-    //m_queue_main();
+    m_queue_main();
     //m_priority_queue_main();
     //m_stack_main();
     //m_heap_main();
@@ -23,7 +23,7 @@ int main()
     //stl_stack_main();
     //stl_queue_main();
     //stl_map_main();
-    trie_main();
+    //trie_main();
     //suffix_array_main();
     return 0;
 }
